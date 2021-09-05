@@ -1,3 +1,7 @@
+import requests, random, time
+import pandas as pd
+from collections import deque
+
 # Useful for a discord bot where you can call a command and the bot will return a random picture from a specified subreddit or a default subreddit
 
 # switch HTTP requests from the current requests module to AIOHTTP for asynchronous calls if you need
