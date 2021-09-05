@@ -28,7 +28,7 @@ I've used the Reddit API to mass-retrieve posts/images for a given subreddit and
 ## Other APIs
 
 - ### Instagram API ([instaloader](https://instaloader.github.io))
-  - You can use it get posts, stories, etc., so I've used to to retrieve any part of a post post based on the post's shortcode in its url and optional `args`.
+  - You can use it get posts, stories, etc., so I've used it to retrieve any part of a post based on the shortcode in its url and an optional arg, `postnums`.
   - function(s):
     - `get_insta_post(shortcode, *, postnums=None)`
 
@@ -40,4 +40,4 @@ I've used the Reddit API to mass-retrieve posts/images for a given subreddit and
     
 ---
 
-***See functions.py for specifics of each function / API***
+***See respective .py files for specifics of each function / API***
