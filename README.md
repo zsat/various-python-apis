@@ -1,4 +1,4 @@
-# Python APIs + Modules I've Used
+# Some Fun Python APIs + Modules I've Used
 
 > Ranging from image processing to retrieving info from Reddit
 ---
@@ -30,13 +30,14 @@ I've used the Reddit API to mass-retrieve posts/images for a given subreddit and
 - ### Instagram API (instaloader)
   - You can use it get posts, stories, etc., so I've used to to retrieve any part of a post post based on the post's shortcode in its url and optional `args`.
   - function(s):
-    -`get_insta_post(shortcode, *, postnums=None)`
+    - test
+    - `get_insta_post(shortcode, *, postnums=None)`
 
 
 - ### Remove.bg API
   - Revome.bg is a nice site that uses ML to remove the backgrounds of images, and has an API that I used just for that.
   - function(s):
-    -`removebg()`
+    - `removebg()`
     
 ---
 
