@@ -18,11 +18,12 @@ See my other repository on creating a Discord bot (to interface with the [Discor
 ---
 ## Reddit API
 
-I've used the Reddit API to mass-retrieve posts/images for a given subreddit and store them (plus other info) in a `pandas.DataFrame`.
+I've used the [Reddit API](https://www.reddit.com/dev/api/) to mass-retrieve posts/images for a given subreddit and store them (plus other info) in a `pandas.DataFrame`.
+- I followed [this](https://towardsdatascience.com/how-to-use-the-reddit-api-in-python-5e05ddfd1e5c) article to set up the API in its complex process.
 - function(s):
   - `get_subreddit(subreddit)`
   - `load_subreddit_data(subreddits=None, method='hot', time='day', limit=25)`
-  - `generate_new_api_token(self)`
+  - `generate_new_api_token()`
 
 ---
 ## Other APIs
@@ -30,7 +31,7 @@ I've used the Reddit API to mass-retrieve posts/images for a given subreddit and
 - ### Instagram API ([instaloader](https://instaloader.github.io))
   - You can use it get posts, stories, etc., so I've used it to retrieve any part of a post based on the shortcode in its url and an optional arg, `postnums`.
   - function(s):
-    - `get_insta_post(shortcode, *, postnums=None)`
+    - `get_insta_post(shortcode, postnums=[])`
 
 
 - ### Remove.bg API ([here](https://www.remove.bg/api#remove-background))
