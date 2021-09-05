@@ -130,8 +130,12 @@ class reddit_api:
         
             
     
-    
-    # load all default subreddit data or load a specific sub
+  # I've decided to leave this function as well as generate_new_reddit_token as public so that the user can call them from elsewhere if
+  # they wish. If they call this one, they just won't get an image back, but is useful if you want to load posts en masse before users arrive
+  # so that they don't have to wait for the program to load new subreddits, putting a lot of the load time during initialization. The token
+  # generation is useful if you're worried about security and want to refresh the token, say, every 5 minutes, instead of 50 as I have it
+  # currently.
+  # load all default subreddit data or load a specific sub
   def load_subreddit_data(self, subreddit=None, method='hot', time='day', limit=25):
     global reddit_headers, subreddits_df, default_subs, all_subs_deques
     
@@ -180,8 +184,7 @@ class reddit_api:
 
   
   
-  
-
+  # Simply loads a new token and stores it in the class.
   def generate_new_reddit_token(self):
     global REDDIT_TOKEN, reddit_headers, subreddits_df
 
