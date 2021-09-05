@@ -4,7 +4,7 @@
 ---
 ## Image Processing
 
-Using the [Moviepy module](https://moviepy.readthedocs.io/en/latest/), I wrote some functions to overlay videos on images, images on images, etc., as well as video concatenation and text overlay with the textwrap module.
+Using the [Moviepy](https://moviepy.readthedocs.io/en/latest/) and [PIL](https://pillow.readthedocs.io/en/stable/) modules, I wrote some functions to overlay videos on images, images on images, etc., as well as video concatenation and text overlay with the textwrap module.
 - function(s):
   - `file_over_image`, supports imgs, vids, gifs
   - `concat_video`
