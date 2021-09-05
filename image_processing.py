@@ -15,6 +15,7 @@ class image_processing(commands.Cog):
   
   # This specific function was made to recreate the 'This is x' Spotify meme, by having the file be a png/jpg/mp4/gif and 
   # being able to customize the name of the person that gets replaced under the 'This is' part of the text at the top.
+  # You can go to ~/images/thisistemplate.png to see the template itself to get a better understanding of what this method does.
   # Of course, you can take most of this code and change a few lines so that there's no text needed, or so that you can choose what
   # type of file gets placed under the first inputted file that this function takes.
   @commands.command(help='type: file_over_image <name> (and include img/gif/mp4)')
