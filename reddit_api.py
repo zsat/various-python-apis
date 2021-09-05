@@ -2,7 +2,10 @@ import requests, random, time
 import pandas as pd
 from collections import deque
 
-# Useful for a discord bot where you can call a command and the bot will return a random picture from a specified subreddit or a default subreddit
+# This class will auto-update your API token if it is likely to be invalidated by Reddit. Its main function is to return a random picture/video from
+# a specified or random subreddit. The user can specify that the program downloads data for a specific subreddit, or you can hardcode some default 
+# subreddits into 'default_subs' so that no subreddit is required. In addition, if you've used up more than half of the first requests returned posts
+# then the program'll fetch more posts from the past week. # Also useful for a discord bot where you can call a command and get a random post back.
 
 # switch HTTP requests from the current requests module to AIOHTTP for asynchronous calls if you need
 class reddit_api:
