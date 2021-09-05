@@ -1,11 +1,14 @@
 # Python APIs + Modules I've Used
 
-> Ranging from image processing to 
+> Ranging from image processing to retrieving info from Reddit
 ---
 ## Image Processing
 
 Using the [Moviepy module](https://moviepy.readthedocs.io/en/latest/), I wrote some functions to overlay videos on images, images on images, etc., as well as video concatenation
 - function(s):
+  - `image_over_image(top, bottom)`
+  - `video_over_image(video, img)`
+  - `concat_video(start, video)`
 
 ---
 ## Discord, Youtube Data APIs
@@ -18,6 +21,8 @@ See my other repository on creating a Discord bot (to interface with the [Discor
 I've used the Reddit API to mass-retrieve posts/images for a given subreddit and store them (plus other info) in a `pandas.DataFrame`.
 - function(s):
   - `asdf`
+  - `load_subreddit_data(subreddits=None, method='hot', time='day', limit=25)`
+  - `generate_new_api_token(self)`
 
 ---
 ## Other APIs
