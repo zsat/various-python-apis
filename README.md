@@ -36,7 +36,7 @@ I've used the Reddit API to mass-retrieve posts/images for a given subreddit and
 - ### Remove.bg API ([here](https://www.remove.bg/api#remove-background))
   - Revome.bg is a nice site that uses ML to remove the backgrounds of images, and has an API that I used just for that.
   - function(s):
-    - `removebg(path)`
+    - `removebg(path_to_img)`
     
 ---
 
