@@ -1,6 +1,6 @@
 # Some Fun Python APIs + Modules I've Used
 
-> Ranging from image processing to retrieving info from Reddit
+> Ranging from image processing to retrieving posts on Reddit
 ---
 ## Image Processing
 
@@ -20,25 +20,24 @@ See my other repository on creating a Discord bot (to interface with the [Discor
 
 I've used the Reddit API to mass-retrieve posts/images for a given subreddit and store them (plus other info) in a `pandas.DataFrame`.
 - function(s):
-  - `asdf`
+  - `get_subreddit(subreddit)`
   - `load_subreddit_data(subreddits=None, method='hot', time='day', limit=25)`
   - `generate_new_api_token(self)`
 
 ---
 ## Other APIs
 
-- ### Instagram API (instaloader)
+- ### Instagram API ([instaloader](https://instaloader.github.io))
   - You can use it get posts, stories, etc., so I've used to to retrieve any part of a post post based on the post's shortcode in its url and optional `args`.
   - function(s):
-    + test
-    + `get_insta_post(shortcode, *, postnums=None)`
+    - `get_insta_post(shortcode, *, postnums=None)`
 
 
-- ### Remove.bg API
+- ### Remove.bg API ([here](https://www.remove.bg/api#remove-background))
   - Revome.bg is a nice site that uses ML to remove the backgrounds of images, and has an API that I used just for that.
   - function(s):
-    - `removebg()`
+    - `removebg(path)`
     
 ---
 
-***see functions.py to see the specifics***
+***See functions.py for specifics of each function / API***
