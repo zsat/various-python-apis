@@ -1,4 +1,4 @@
-# Some Fun Python APIs + Modules I've Used
+# Some Fun Python APIs + Modules
 
 > Ranging from image processing to retrieving posts on Reddit
 ---
