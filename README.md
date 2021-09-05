@@ -9,6 +9,9 @@ Using the [Moviepy](https://moviepy.readthedocs.io/en/latest/) and [PIL](https:/
   - `file_over_image`, supports imgs, vids, gifs
   - `concat_video`
   - `text_overlay`
+>Here's example output for `file_over_image` for an image of Andrew Ng:
+
+![final](https://user-images.githubusercontent.com/69357099/132138683-8378b1d7-8073-46c5-ab5b-579772f88fb5.png)
 
 ---
 ## Discord, Youtube Data APIs
