@@ -6,8 +6,7 @@
 
 Using the [Moviepy module](https://moviepy.readthedocs.io/en/latest/), I wrote some functions to overlay videos on images, images on images, etc., as well as video concatenation and text overlay with the textwrap module.
 - function(s):
-  - `image_over_image`
-  - `video_over_image`
+  - `file_over_file`, supports images and videos
   - `concat_video`
   - `text_overlay`
 
