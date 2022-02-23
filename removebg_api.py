@@ -6,7 +6,7 @@ class removebg_api:
     def removebg(self, path_to_img):
     
     storage_path = '~/path/to/storage/' # path we want to store our finished images in
-    suffix = str.lower(path_to_image.split('.')[-1]) # getting suffix so we can produce a separate file
+    suffix = str.lower(path_to_img.split('.')[-1]) # getting suffix so we can produce a separate file
         
 	# if this throws an exception then there's likely a problem opening the file, perhaps not a valid format
 	try:
